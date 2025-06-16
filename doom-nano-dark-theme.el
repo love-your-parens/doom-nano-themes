@@ -264,6 +264,7 @@
 
    (evil-snipe-first-match-face :background nano-highlight :weight 'bold)
    (evil-snipe-matches-face     :background nano-subtle)
+   (evil-ex-search              :foreground nano-popout)
 
    ;; === Flycheck =============================================================
 
@@ -509,6 +510,11 @@
    (mode-line          :foreground fg :background nano-subtle)
    (mode-line-inactive :foreground nano-strong :background nano-highlight)
    (mode-line-emphasis :foreground nano-strong :weight 'bold)
+   (mode-line-highlight :foreground nano-strong :background nano-highlight)
+
+   ;; === Doom modeline ========================================================
+   (doom-modeline-project-dir :foreground nano-salient :background nano-subtle)
+   (doom-modeline-highlight   :foreground fg           :background nano-highlight)
 
    ;; === Packages =============================================================
 
