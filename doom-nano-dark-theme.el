@@ -158,6 +158,9 @@
    (tool-bar                     :foreground bg :background nano-faded)
    (tooltip                      :background nano-subtle)
    (trailing-whitespace          :background nano-subtle)
+   (doom-dashboard-menu-title    :foreground nano-salient)
+   (doom-dashboard-menu-desc     :foreground nano-strong)
+   (doom-dashboard-footer-icon   :foreground nano-salient)
 
    (whitespace-tab :background
                    (if doom-nano-dark-theme-highlight-tab-whitespaces
