@@ -41,6 +41,8 @@
 
 ;;; Code:
 
+(require 'doom-themes)
+
 (defgroup doom-nano-dark-theme nil
   "Options for the `doom-nano-dark' theme."
   :group 'doom-themes)
