@@ -707,7 +707,8 @@
 
    (which-key-command-description-face   :foreground fg)
    (which-key-key-face                   :foreground nano-strong :weight 'bold)
-   (which-key-key-group-description-face :foreground nano-salient)))
+   (which-key-local-map-description-face :foreground nano-salient)
+   (which-key-group-description-face     :foreground nano-salient)))
 
 (provide 'doom-nano-dark-theme)
 
