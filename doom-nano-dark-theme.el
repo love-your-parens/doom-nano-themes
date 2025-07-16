@@ -176,7 +176,7 @@
 
    (ansi-color-black          :foreground fg)
    (ansi-color-bold           :foreground nano-strong :weight 'bold)
-   (ansi-color-bright-black   :foreground nano-strong :weight 'bold)
+   (ansi-color-bright-black   :foreground nano-faded :weight 'bold)
    (ansi-color-faint          :foreground nano-faded)
    (ansi-color-fast-blink     :foreground nano-faded)
    (ansi-color-slow-blink     :foreground nano-faded)
