@@ -118,7 +118,7 @@
    (methods        nano-strong)
    (operators      nano-salient)
    (type           nano-salient)
-   (strings        nano-popout)
+   (strings        bright-blue)
    (variables      nano-salient)
    (numbers        nano-salient)
    (region         nano-subtle)
