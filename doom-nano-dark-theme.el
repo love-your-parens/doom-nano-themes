@@ -700,7 +700,7 @@
    (vterm-color-green   :foreground green :background bright-green)
    (vterm-color-magenta :foreground magenta :background bright-magenta)
    (vterm-color-red     :foreground red :background bright-red)
-   (vterm-color-yellow  :foreground yellow :background bright-yellow)
+   (vterm-color-yellow  :foreground yellow :background orange)
    (vterm-color-white   :foreground white :background white)
 
    ;; === Workspaces ===========================================================
