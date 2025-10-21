@@ -267,6 +267,9 @@
    (doom-nano-modeline-evil-visual-state-face   :foreground bg :background nano-salient)
    (doom-nano-modeline-inactive-face            :foreground nano-faded :background nano-highlight)
 
+   ;; === Eww mode =============================================================
+   (eww-valid-certificate :foreground nano-salient)
+
    ;; === Evil mode ============================================================
 
    (evil-snipe-first-match-face :background nano-highlight :weight 'bold)
