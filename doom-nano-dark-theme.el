@@ -61,7 +61,7 @@
    (nano-background '("#2E3440" "#2E2E2E" "black"))
    (nano-highlight  '("#3B4252" "#262626" "brightblack"))
    (nano-subtle     '("#434C5E" "#3F3F3F" "brightblack"))
-   (nano-faded      '("#677691" "#5699AF" "cyan"))
+   (nano-faded      '("#718099" "#677691" "#5699AF" "cyan"))
    (nano-salient    '("#81A1C1" "#51AFEF" "brightblue"))
    (nano-strong     '("#FFFFFF" "#FFFFFF" "brightwhite"))
    (nano-popout     '("#D08770" "#DD8844" "brightred"))
