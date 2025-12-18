@@ -312,7 +312,7 @@
 
    ;; === Line numbers =========================================================
 
-   (line-number              :foreground nano-faded)
+   (line-number              :foreground base5)
    (line-number-current-line :foreground fg)
    (line-number-major-tick   :foreground nano-faded)
    (line-number-minor-tick   :foreground nano-faded)
