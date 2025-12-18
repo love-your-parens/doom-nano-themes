@@ -699,14 +699,22 @@
 
    ;;; === Vterm ===============================================================
 
-   (vterm-color-black   :foreground fg :background fg)
+   (vterm-color-black   :foreground fg :background base6)
    (vterm-color-blue    :foreground blue :background bright-blue)
    (vterm-color-cyan    :foreground cyan :background bright-cyan)
    (vterm-color-green   :foreground green :background bright-green)
    (vterm-color-magenta :foreground magenta :background bright-magenta)
    (vterm-color-red     :foreground red :background bright-red)
    (vterm-color-yellow  :foreground yellow :background orange)
-   (vterm-color-white   :foreground white :background white)
+   (vterm-color-white   :foreground nano-foreground :background nano-highlight)
+   (vterm-color-bright-black   :foreground nano-strong :background nano-faded)
+   (vterm-color-bright-blue    :foreground bright-blue :background blue)
+   (vterm-color-bright-cyan    :foreground bright-cyan :background cyan)
+   (vterm-color-bright-green   :foreground bright-green :background green)
+   (vterm-color-bright-magenta :foreground bright-magenta :background magenta)
+   (vterm-color-bright-red     :foreground bright-red :background red)
+   (vterm-color-bright-yellow  :foreground bright-yellow :background orange)
+   (vterm-color-bright-white   :foreground nano-strong :background nano-highlight)
 
    ;; === Workspaces ===========================================================
 
