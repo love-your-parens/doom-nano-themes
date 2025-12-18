@@ -4,14 +4,14 @@ This package contains an attempt to replicate [N Λ N O
 Theme](https://github.com/rougier/nano-theme) using Doom themes framework.
 Hence, it can work properly when using Doom Emacs.
 
-    This is a personal fork that deviates in meaningful (breaking) ways from the upstream, but continues its goal of implementing the principles of the original _N Λ N O Theme_.
+This is a personal fork that deviates in meaningful (breaking) ways from the upstream, but continues its goal of implementing the principles of the original _N Λ N O Theme_.
 
 ## Installation
 
 First, copy the files to `~/.doom.d/themes/` or
 `~/.config/doom/themes/` depending on your local setup.
 
-If you are using Doom Emacs, add to your `config.el`:
+If you are using Doom Emacs, add the following to your `config.el`:
 
 ```emacs-lisp
 (setq doom-theme 'doom-nano-light))
