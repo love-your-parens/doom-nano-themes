@@ -702,7 +702,7 @@
    (vterm-color-black          :foreground base0           :background base3)
    (vterm-color-blue           :foreground nano-salient    :background bright-blue)
    (vterm-color-cyan           :foreground blue            :background bright-blue)
-   (vterm-color-green          :foreground fg              :background nano-salient)
+   (vterm-color-green          :foreground base6           :background base4)
    (vterm-color-magenta        :foreground bright-blue     :background nano-salient)
    (vterm-color-red            :foreground nano-popout     :background nano-highlight)
    (vterm-color-yellow         :foreground bright-blue     :background blue)
