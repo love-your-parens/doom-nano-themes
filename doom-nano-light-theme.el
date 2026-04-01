@@ -688,14 +688,23 @@
 
    ;;; === Vterm ===============================================================
 
-   (vterm-color-black   :foreground fg :background fg)
-   (vterm-color-blue    :foreground blue :background bright-blue)
-   (vterm-color-cyan    :foreground cyan :background bright-cyan)
-   (vterm-color-green   :foreground green :background bright-green)
-   (vterm-color-magenta :foreground magenta :background bright-magenta)
-   (vterm-color-red     :foreground red :background bright-red)
-   (vterm-color-yellow  :foreground yellow :background bright-yellow)
-   (vterm-color-white   :foreground grey :background grey)
+   (vterm-color-black          :foreground base0           :background base3)
+   (vterm-color-blue           :foreground nano-salient    :background bright-blue)
+   (vterm-color-cyan           :foreground blue            :background bright-blue)
+   (vterm-color-green          :foreground base6           :background base4)
+   (vterm-color-magenta        :foreground nano-faded     :background nano-salient)
+   (vterm-color-red            :foreground nano-popout     :background nano-highlight)
+   (vterm-color-yellow         :foreground bright-blue     :background blue)
+   (vterm-color-white          :foreground nano-foreground :background nano-highlight)
+   (vterm-color-bright-black   :foreground nano-faded      :background base4)
+   (vterm-color-bright-blue    :foreground bright-blue     :background blue)
+   (vterm-color-bright-cyan    :foreground bright-cyan     :background cyan)
+   (vterm-color-bright-green   :foreground base8           :background base6)
+   (vterm-color-bright-magenta :foreground nano-critical   :background orange)
+   (vterm-color-bright-red     :foreground nano-popout     :background red)
+   (vterm-color-bright-yellow  :foreground bright-cyan     :background cyan)
+   (vterm-color-bright-white   :foreground nano-strong     :background nano-highlight)
+   (vterm-color-underline      :underline t)
 
    ;; === Workspaces ===========================================================
 
