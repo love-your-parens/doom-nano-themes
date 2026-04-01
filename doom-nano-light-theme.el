@@ -155,6 +155,8 @@
    (tool-bar                     :foreground bg :background nano-faded)
    (tooltip                      :background nano-subtle)
    (trailing-whitespace          :background nano-subtle)
+   (doom-dashboard-footer-icon   :foreground nano-faded)
+   (+dashboard-footer-icon       :foreground nano-faded)
 
    (whitespace-tab :background
                    (if doom-nano-light-theme-highlight-tab-whitespaces
@@ -264,6 +266,7 @@
 
    (evil-snipe-first-match-face :background nano-highlight :weight 'bold)
    (evil-snipe-matches-face     :background nano-subtle)
+   (evil-ex-search              :foreground nano-popout)
 
    ;; === Flycheck =============================================================
 
@@ -508,6 +511,14 @@
 
    (mode-line          :foreground fg :background nano-subtle)
    (mode-line-emphasis :foreground nano-strong :weight 'bold)
+   (mode-line-highlight :foreground nano-strong :background nano-highlight)
+
+   ;; === Doom modeline ========================================================
+   (doom-modeline-project-dir                :foreground nano-salient :background nano-subtle)
+   (doom-modeline-buffer-file-name           :foreground fg           :background nano-subtle)
+   (doom-modeline-highlight                  :foreground fg           :background nano-highlight)
+   (lsp-modeline-code-actions-face           :foreground nano-salient)
+   (lsp-modeline-code-actions-preferred-face :foreground nano-critical)
 
    ;; === Packages =============================================================
 
@@ -694,7 +705,12 @@
 
    (which-key-command-description-face   :foreground fg)
    (which-key-key-face                   :foreground nano-strong :weight 'bold)
-   (which-key-key-group-description-face :foreground nano-salient)))
+   (which-key-local-map-description-face :foreground nano-salient)
+   (which-key-group-description-face     :foreground nano-salient)
+
+   ;; === Ediff ================================================================
+   (ediff-current-diff-A :foreground nano-faded :background base1)
+   (ediff-current-diff-C :foreground nano-faded :background base1)))
 
 (provide 'doom-nano-light-theme)
 
