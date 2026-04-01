@@ -248,6 +248,10 @@
    (diff-refine-changed :foreground nano-popout)
    (diff-refine-removed :foreground nano-faded :strike-through t)
 
+   ;; === Dirvish ==============================================================
+
+   (dirvish-hl-line :foreground fg :background base1)
+
    ;; === Doom NANO modeline ===================================================
 
    (doom-nano-modeline-evil-emacs-state-face    :foreground bg :background nano-faded)
