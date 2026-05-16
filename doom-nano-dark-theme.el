@@ -128,7 +128,11 @@
    (success        nano-salient)
    (vc-modified    nano-popout)
    (vc-added       nano-salient)
-   (vc-deleted     nano-faded))
+   (vc-deleted     nano-faded)
+
+   (-modeline-pad
+    (when doom-themes-padded-modeline
+      (if (integerp doom-themes-padded-modeline) doom-themes-padded-modeline 4))))
 
   (;; Overwrite faces set by Doom theme framework.
 
@@ -522,7 +526,7 @@
 
    ;; === Modeline =============================================================
 
-   (mode-line          :foreground nano-faded :background nano-subtle)
+   (mode-line          :foreground nano-faded :background nano-subtle :box (if -modeline-pad `(:line-width ,-modeline-pad :color ,nano-subtle)))
    (mode-line-inactive :foreground nano-faded :background nano-highlight)
    (mode-line-emphasis :foreground nano-strong :weight 'bold)
    (mode-line-highlight :foreground nano-strong :background nano-highlight)
