@@ -522,6 +522,7 @@
    ;; === Modeline =============================================================
 
    (mode-line          :foreground fg :background nano-subtle :box (if -modeline-pad `(:line-width ,-modeline-pad :color ,nano-subtle)))
+   (mode-line-inactive :box (if -modeline-pad `(:line-width ,-modeline-pad :color ,bg)))
    (mode-line-emphasis :foreground nano-strong :weight 'bold)
    (mode-line-highlight :foreground nano-strong :background nano-highlight)
 
