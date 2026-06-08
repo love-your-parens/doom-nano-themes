@@ -567,7 +567,7 @@
    (org-checkbox-statistics-done :foreground nano-faded)
    (org-checkbox-statistics-todo :foreground nano-faded)
    (org-clock-overlay            :foreground nano-faded)
-   (org-code                     :foreground nano-salient)
+   (org-code                     :foreground nano-foreground :background nano-subtle)
    (org-column                   :foreground nano-faded)
    (org-column-title             :foreground nano-faded)
    (org-date                     :foreground nano-faded)
@@ -612,7 +612,7 @@
    (org-time-grid                :foreground nano-faded)
    (org-todo                     :foreground nano-salient)
    (org-upcoming-deadline        :foreground nano-popout)
-   (org-verbatim                 :foreground nano-popout)
+   (org-verbatim                 :foreground nano-salient)
    (org-verse                    :foreground nano-faded)
    (org-warning                  :foreground nano-popout)
 
