@@ -169,6 +169,8 @@
    (+dashboard-menu-title        :foreground nano-salient)
    (+dashboard-menu-desc         :foreground nano-foreground)
    (+dashboard-footer-icon       :foreground nano-faded)
+   (header-line                  :inherit 'mode-line :background bg :box `(:line-width 3 :color ,bg) :height 0.8)
+   (solaire-header-line-face     :inherit 'solaire-default-face :box `(:line-width 3 :style flat-button) :height 0.8)
 
    (whitespace-tab :background
                    (if doom-nano-dark-theme-highlight-tab-whitespaces
