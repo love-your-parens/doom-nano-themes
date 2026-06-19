@@ -470,7 +470,10 @@
    (magit-signature-revoked               :foreground fg)
    (magit-signature-untrusted             :foreground fg)
    (magit-tag                             :foreground nano-strong)
+   (git-commit-comment-heading            :foreground fg)
    (git-commit-comment-file               :foreground nano-salient)
+   (git-commit-comment-branch-local       :foreground nano-popout)
+   (git-commit-comment-branch-remote      :foreground nano-popout)
 
    ;; === Marginalia ===========================================================
 
