@@ -165,6 +165,7 @@
    (+dashboard-menu-title        :foreground nano-foreground)
    (+dashboard-menu-desc         :foreground nano-salient)
    (+dashboard-footer-icon       :foreground nano-faded)
+   (header-line                  :inherit 'mode-line :background bg :box `(:line-width 3 :color ,bg) :height 0.8)
 
    (whitespace-tab :background
                    (if doom-nano-light-theme-highlight-tab-whitespaces
