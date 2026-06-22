@@ -51,7 +51,7 @@
   :type 'boolean)
 
 (def-doom-theme doom-nano-light
-  "A light theme for Doom Emacs based on N Λ N O."
+    "A light theme for Doom Emacs based on N Λ N O."
 
   (;; Colors defined by N Λ N O theme.
    (nano-foreground '("#37474F" "#37474F" "brightblack"))
@@ -286,7 +286,7 @@
 
    ;; === Font lock ============================================================
 
-   (font-lock-variable-name-face :foreground nano-salient :weight 'bold)
+   (font-lock-variable-name-face :weight 'bold)
    (font-lock-function-name-face :foreground nano-strong :weight 'bold)
 
    ;; === Info =================================================================
@@ -736,7 +736,11 @@
 
    ;; === Ediff ================================================================
    (ediff-current-diff-A :foreground nano-faded :background base1)
-   (ediff-current-diff-C :foreground nano-faded :background base1)))
+   (ediff-current-diff-C :foreground nano-faded :background base1)
+
+   ;; === Eglot ================================================================
+   (eglot-semantic-variable :weight 'normal)
+   (eglot-highlight-symbol-face :slant 'italic :underline `(:color ,nano-salient))))
 
 (provide 'doom-nano-light-theme)
 
