@@ -741,7 +741,7 @@
 
    ;; === Eglot ================================================================
    (eglot-semantic-variable :weight 'normal)
-   (eglot-highlight-symbol-face :slant 'italic :underline `(:color ,nano-salient))))
+   (eglot-highlight-symbol-face :background nano-subtle)))
 
 (provide 'doom-nano-light-theme)
 
