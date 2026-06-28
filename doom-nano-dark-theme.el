@@ -53,7 +53,7 @@
   :type 'boolean)
 
 (def-doom-theme doom-nano-dark
-  "A dark theme for Doom Emacs based on N Λ N O."
+    "A dark theme for Doom Emacs based on N Λ N O."
 
   (;; Colors defined by N Λ N O theme. Some colors for the 256 and 16 modes were
    ;; obtained from the Doom Nord theme.
@@ -628,24 +628,25 @@
 
    ;; === Org-agenda ===========================================================
 
-   (org-agenda-calendar-event   :foreground fg)
-   (org-agenda-calendar-sexp    :foreground nano-salient)
-   (org-agenda-clocking         :foreground nano-faded)
-   (org-agenda-column-dateline  :foreground nano-faded)
-   (org-agenda-current-time     :foreground nano-salient :weight 'bold)
-   (org-agenda-date             :foreground nano-strong :weight 'bold)
-   (org-agenda-date-today       :foreground nano-salient :weight 'bold)
-   (org-agenda-date-weekend     :foreground nano-faded)
-   (org-agenda-diary            :foreground nano-faded)
-   (org-agenda-dimmed-todo-face :foreground nano-faded)
-   (org-agenda-done             :foreground nano-faded)
-   (org-agenda-filter-category  :foreground nano-faded)
-   (org-agenda-filter-effort    :foreground nano-faded)
-   (org-agenda-filter-regexp    :foreground nano-faded)
-   (org-agenda-filter-tags      :foreground nano-faded)
-   (org-agenda-property-face    :foreground nano-faded)
-   (org-agenda-restriction-lock :foreground nano-faded)
-   (org-agenda-structure        :foreground nano-strong :weight 'bold)
+   (org-agenda-calendar-event       :foreground fg)
+   (org-agenda-calendar-sexp        :foreground nano-salient)
+   (org-agenda-clocking             :foreground nano-faded)
+   (org-agenda-column-dateline      :foreground nano-faded)
+   (org-agenda-current-time         :foreground nano-salient :weight 'bold)
+   (org-agenda-date                 :foreground nano-strong  :weight 'bold)
+   (org-agenda-date-today           :foreground nano-salient :weight 'bold)
+   (org-agenda-date-weekend         :foreground nano-faded)
+   (org-agenda-diary                :foreground nano-faded)
+   (org-agenda-dimmed-todo-face     :foreground nano-faded)
+   (org-agenda-done                 :foreground nano-faded)
+   (org-agenda-filter-category      :foreground nano-faded)
+   (org-agenda-filter-effort        :foreground nano-faded)
+   (org-agenda-filter-regexp        :foreground nano-faded)
+   (org-agenda-filter-tags          :foreground nano-faded)
+   (org-agenda-property-face        :foreground nano-faded)
+   (org-agenda-restriction-lock     :foreground nano-faded)
+   (org-agenda-structure            :foreground nano-strong  :weight 'bold)
+   (org-journal-calendar-entry-face :foreground nano-critical  :weight 'bold)
 
    ;; === Popup ================================================================
 
