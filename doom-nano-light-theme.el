@@ -743,7 +743,10 @@
 
    ;; === Eglot ================================================================
    (eglot-semantic-variable :weight 'normal)
-   (eglot-highlight-symbol-face :background nano-subtle)))
+   (eglot-highlight-symbol-face :background nano-subtle)
+
+   ;; === CIDER ================================================================
+   (cider-result-overlay-face :foreground fg :background nano-faded :box `(:line-width -1 :color ,base4))))
 
 (provide 'doom-nano-light-theme)
 
