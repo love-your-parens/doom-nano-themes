@@ -259,6 +259,17 @@
    (diff-refine-changed :foreground nano-popout)
    (diff-refine-removed :foreground nano-faded :strike-through t)
 
+   ;; === Dired ================================================================
+
+   (diredfl-dir-name :foreground nano-salient)
+   (diredfl-date-time :foreground nano-strong)
+   (diredfl-number :foreground fg :weight 'bold)
+   (diredfl-read-priv :foreground fg)
+   (diredfl-write-priv :foreground nano-critical)
+   (diredfl-exec-priv :foreground nano-popout)
+   (diredfl-dir-priv :foreground nano-salient)
+   (dired-header :foreground fg :weight 'bold :height 1.25)
+
    ;; === Dirvish ==============================================================
 
    (dirvish-hl-line :foreground fg :background base1)
