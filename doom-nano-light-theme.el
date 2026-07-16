@@ -535,8 +535,8 @@
 
    ;; === Doom modeline ========================================================
    (doom-modeline-project-dir                :foreground nano-salient :background nano-subtle)
-   (doom-modeline-buffer-file-name           :foreground fg           :background nano-subtle)
-   (doom-modeline-highlight                  :foreground fg           :background nano-highlight)
+   (doom-modeline-buffer-file                :foreground fg           :background nano-subtle)
+   (doom-modeline-highlight                  :foreground nano-strong  :background nano-highlight)
    (lsp-modeline-code-actions-face           :foreground nano-salient)
    (lsp-modeline-code-actions-preferred-face :foreground nano-critical)
 
